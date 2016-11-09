@@ -1,4 +1,4 @@
-# Iterate Go [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/iteratehq/iterate-go)
+# Iterate Go [![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/iteratehq/iterate-go) [![Build Status](https://travis-ci.org/iteratehq/iterate-go.svg?branch=master)](https://travis-ci.org/iteratehq/iterate-go)
 
 ## Summary
 
