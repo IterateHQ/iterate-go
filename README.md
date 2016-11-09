@@ -37,7 +37,7 @@ client.EmailSurvey("survey-id", iterate.SendParams{
 // Send a survey at a specific time
 client.EmailSurvey("survey-id", iterate.SendParams{
 	Email: "art@vandelayindustries.com",
-	Date: time.Date(2017, time.March, 12, 10, 0, 0, 0, time.UTC),
+	Date:  time.Date(2017, time.March, 12, 10, 0, 0, 0, time.UTC),
 })
 ```
 

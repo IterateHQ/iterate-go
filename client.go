@@ -1,3 +1,4 @@
+// Package iterate provides access to the Iterate API
 package iterate
 
 import (
