@@ -27,7 +27,7 @@ type SendParams struct {
 
 // ListSurveys returns a list of your surveys.
 // For more details see: http://docs.iterate.apiary.io/#reference/0/surveys/get
-func (c client) ListSurveys() (surveys []Survey, err error) {
+func (c Client) ListSurveys() (surveys []Survey, err error) {
 	results, err := c.get("/surveys", url.Values{})
 
 	if err != nil {
@@ -41,7 +41,7 @@ func (c client) ListSurveys() (surveys []Survey, err error) {
 // EmailSurvey emails a survey to the specified email address with
 // optional additional send parameters.
 // For more details see: http://docs.iterate.apiary.io/#reference/0/surveysidsend/post
-func (c client) EmailSurvey(surveyId string, params SendParams) error {
+func (c Client) EmailSurvey(surveyId string, params SendParams) error {
 	path := fmt.Sprintf("/surveys/%s/send", surveyId)
 
 	values := url.Values{}
